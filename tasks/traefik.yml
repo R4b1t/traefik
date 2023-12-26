@@ -61,10 +61,10 @@
     security_opts:
       - no-new-privileges:true
     networks:
-      - name: homelab
+      - name: misc_default
     ports:
-      - "80:80"
-      - "443:443"
+      - "89:80"
+      - "449:443"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - "{{ docker_dir }}/traefik/data/acme.json:/acme.json"
