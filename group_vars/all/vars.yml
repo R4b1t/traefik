@@ -1,0 +1,16 @@
+---
+username: "<username>"
+
+docker_dir: /all/config/docker_apps
+
+ip_address: "<server_ip>"
+
+timezone: "<timezone>"
+
+domain: "<domain_name>"
+
+cloudflare_email: "<cloudflare_email>"
+
+cloudflare_api_key: "<cloudflare_api_key>"
+
+traefik_basic_auth_hash: "<traefik_basic_auth_hash>"
